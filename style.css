@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  background-color: #fff;
+  font-family: "Cormorant Garamond", sans-serif;
+}
+.header {
+  background-image: url("./images/pinebranch.jpg");
+  background-size: cover;
+  height: 512px;
+  position: relative;
+}
+.header img {
+  width: 100vw;
+  height: 133px;
+}
+.banner-bar {
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 262px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.banner-bar .title {
+  font-family: inherit;
+  font-size: 48px;
+  margin: 20px auto;
+}
+.banner-bar .desc {
+  font-family: inherit;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+.header .logo-img {
+  height: 64px;
+  width: 160px;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5px 5px;
+}
+.single-card {
+  height: 536px;
+  width: 265px;
+  /* border: 1px solid black; */
+  justify-content: start;
+  padding: 10px;
+}
+.single-card .card-image {
+  height: 209;
+  max-width: 100%;
+}
+.card-title {
+  font-family: inherit;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.card-desc {
+  font-family: inherit;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.card-recommendation {
+  font-family: inherit;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.card-url {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.card-price {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.last-card h3 {
+  margin-top: 33%;
+  padding: 0 0 25px;
+  border-bottom: 3px solid black;
+}
